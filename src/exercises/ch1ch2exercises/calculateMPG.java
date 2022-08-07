@@ -1,4 +1,4 @@
-package exercises;
+package exercises.ch1ch2exercises;
 import java.util.Scanner;
 
 public class calculateMPG {
