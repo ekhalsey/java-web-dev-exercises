@@ -37,7 +37,6 @@ public class MenuItem {
 
     public String toString() {
         return this.name + ": " + this.description + ", Price: " + this.price;
-
     }
 
     @Override
