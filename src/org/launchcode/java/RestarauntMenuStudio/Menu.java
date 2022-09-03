@@ -27,6 +27,17 @@ public class Menu {
     public void removeMenuItem(MenuItem menuItem) {
         fullMenu.remove(menuItem);
     }
+    //should take in string, which is what we search for in fullMenu to find what to remove.
+    //MenuItem toBeRemoved = null;
+    //for(MenuItem item: this.menuItems) {
+    //
+    // if (item.getName().equalsIgnoreCase(itemName.equalsIgnoreCase){
+    //      toBeRemoved = item;
+    //      }
+    //      if (toBeRemoved != null {
+    //      this.fullMenu.remove(menuItem);
+    //      }
+    //}
 
     public void displayMenu() {
         for (MenuItem food : fullMenu) {
